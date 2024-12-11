@@ -13,5 +13,7 @@ body {
 }
 
 .suivi {
-    margin-left: 20px;
+    margin: 25px;
+    font-size: 30px;
+    font-weight: bold;
 }
