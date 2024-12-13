@@ -34,6 +34,7 @@ header {
 }
 
 .logo {
+    display: flex;
     margin-top: 20px;
     margin-left: 30px;
 }
@@ -51,8 +52,7 @@ header {
 }
 
 h2 {
-    margin-bottom: 0px;
-    margin-left: 40px;
+    margin: 40px;
 }
 
 .actu {
@@ -124,7 +124,7 @@ nav {
     margin-bottom: 60px;
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
-    grid-template-areas: 
+    grid-template-areas:
         "a1 a2 a3 a4" 
         "a5 a5 a3 a4"; 
     gap: 60px;
@@ -140,10 +140,16 @@ nav {
 
 .b1 {
     display: flex;
-    justify-content: center;
     align-items: center;
     width: 40px;
     height: 40px;
+    margin-top: 5px;
+    padding-bottom: 10px;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
 }
 
 .footer {
@@ -169,7 +175,7 @@ nav {
 @media (max-width:950px) {
     .section1 {
         grid-template-columns: 1fr;
-        grid-template-areas: 
+        grid-template-areas:
             "a1"
             "a2"
             "a3"
@@ -210,13 +216,14 @@ nav {
         padding: 10px; 
     }
 
-    /* Changer le logo */
     nav .logo img { 
         content: url("images/group.png");
         margin-right: auto;
+        display: flex;
     }
     
-    .burger-menu { 
+    .burger-menu {
+        display: flex;
         display: block;
         margin-left: auto;            
         padding-top: 10px;
