@@ -40,19 +40,19 @@ header {
 }
 
 .imghaut {
-    margin: 40px;
     display: flex;
-    justify-content: space-around;
+    flex-wrap: wrap;
+    justify-content: space-between;
     gap: 10px;
+    margin-right: 40px;
 }
 
-.burger-menu { 
+.burger-menu {
     display: none; 
-    cursor: pointer;
 }
 
 h2 {
-    margin: 40px;
+    margin-left: 40px;
 }
 
 .actu {
@@ -74,7 +74,15 @@ h2 {
 nav {
     display: flex; 
     justify-content: space-between; 
-    align-items: center; 
+    gap: 30px;
+}
+
+.nav-liens {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-weight: 300;
     gap: 30px;
 }
 
@@ -119,6 +127,11 @@ nav {
     font-weight: bold;
 }
 
+.suivre {
+    color: blue;
+    font-size: 13px;
+}
+
 .section1 {
     margin-left: 40px;
     margin-bottom: 60px;
@@ -150,6 +163,10 @@ nav {
 
 a {
     text-decoration: none;
+}
+
+a:hover {
+    font-weight: bold;
 }
 
 .footer {
@@ -189,7 +206,7 @@ a {
     }
 }
 
-@media (max-width: 950px) {
+@media (max-width: 1100px) {
     header {
         background-color: rgba(30, 42, 55, 1);
         width: 100%;
