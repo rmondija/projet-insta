@@ -58,3 +58,13 @@ a{
     height: 70px;
     width: 100%;
 }
+
+.gauche {
+    padding-left: 20px;
+    margin-right: auto;
+}
+
+.droite {
+    padding-right: 20px;
+    margin-left: auto;
+}
