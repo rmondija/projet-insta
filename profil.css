@@ -17,6 +17,11 @@ body {
     list-style: none;
 }
 
+a{
+ text-decoration: none;
+ color: black;
+}
+
 @media (max-width: 480px) {
     .accueil {
         display: inline;
