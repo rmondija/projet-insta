@@ -1,6 +1,9 @@
 * {
     background-color: #F6F8FA;
     color: #1E2A37;
+    font-family: "Roboto";
+    margin: 0;
+    padding: 0;
 }
 
 .navbar{
@@ -44,4 +47,14 @@ a{
 .c1 {
     padding: 10px;
     background: white;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1E2A37;
+    color: white;
+    height: 70px;
+    width: 100%;
 }
