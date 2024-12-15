@@ -1,3 +1,7 @@
+body {
+    background-color: #F6F8FA;
+}
+
 .navbar{
     display: flex;
     flex-direction: row;
@@ -17,4 +21,21 @@
     .accueil {
         display: inline;
     }
+}
+
+.profil {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    gap: 20px;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+}
+
+.c1 {
+    padding: 10px;
+    background: white;
 }
