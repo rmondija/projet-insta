@@ -15,7 +15,11 @@ body {
     gap: 50px;
     flex-basis: 50%;
     list-style: none;
-    text-decoration: none;
+}
+
+a{
+ text-decoration: none;
+ color: black;
 }
 
 @media (max-width: 480px) {
