@@ -30,12 +30,6 @@ a:hover {
     font-weight: bold;
 }
 
-@media (max-width: 480px) {
-    .accueil {
-        display: inline;
-    }
-}
-
 .profil {
     display: flex;
     flex-direction: row;
@@ -52,10 +46,22 @@ a:hover {
     padding: 10px;
     background: white;
     color: #1E2A37;
+    grid-area: c1;
 }
 
-.c1 {
-    grid-area: c1;
+#s1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "c1 c2 c2 c2"
+    "c1 c3 c3 c3"
+    ". c4 c5 c6"
+    ". c7 c8 c6";
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    gap: 30px;
 }
 
 .c2{
@@ -86,20 +92,6 @@ a:hover {
     grid-area: c8;
 }
 
-#s1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: 
-    "c1 c2 c2 c2"
-    "c1 c3 c3 c3"
-    ". c4 c5 c6"
-    ". c7 c8 c6";
-    justify-content: center;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    gap: 30px;
-}
-
 .footer {
     display: flex;
     justify-content: space-between;
@@ -118,4 +110,25 @@ a:hover {
 .droite {
     padding-right: 20px;
     margin-left: auto;
+}
+
+@media (max-width: 480px) {
+    .accueil {
+        display: inline;
+    }
+}
+
+@media (max-width:780px) {
+    #s1 {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "c1"
+            "c2"
+            "c3"
+            "c4"
+            "c5"
+            "c6"
+            "c7"
+            "c8";
+    }
 }
