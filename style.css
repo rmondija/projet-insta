@@ -1,3 +1,9 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto";
+}
+
 a{
     margin: 0;
     padding: 0;
@@ -8,17 +14,9 @@ a{
     display: flex;
     justify-content: space-between;
     background-color: #1E2A37;
-    font-family: Arial, Helvetica, sans-serif;
     color: white;
-    padding: 1rem;
+    width: 100%;
 }
-
-
-* {
-  margin: 0;
-  padding: 0;
-  font-family: "Roboto";
-  background-color: #F6F8FA;}
 
 header { 
   display: flex; 
