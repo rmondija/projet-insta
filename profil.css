@@ -26,6 +26,10 @@ a{
  color: #1E2A37;
 }
 
+a:hover {
+    font-weight: bold;
+}
+
 @media (max-width: 480px) {
     .accueil {
         display: inline;
@@ -47,6 +51,7 @@ a{
 .c1 {
     padding: 10px;
     background: white;
+    color: #1E2A37;
 }
 
 .footer {
