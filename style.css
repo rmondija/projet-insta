@@ -211,20 +211,19 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-  padding-left: 20px;
-  padding-right: 20px;
     width: 100%;
 }
 
  .gauche .droite {
-    padding-left: 20px;
-    margin-right: auto;
-  color:white;
+    color:white;
+}
+
+.gauche {
+  padding-left: 20px;
 }
 
 .droite {
     padding-right: 20px;
-    margin-left: auto;
 }
 
 
@@ -253,6 +252,7 @@ footer {
         display: flex;
         justify-content: space-between;
         text-align: center;
+        padding-top: 5px;
     }
 
     .menu { 
@@ -321,14 +321,14 @@ footer {
   .droite{ 
         text-align: center;
     width: auto; 
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     color: white;
   }
 
   .gauche { 
     text-align: center; 
     width: auto; 
-    margin-bottom: 20px;
     color: white;
+    margin-bottom: 5px;
   }
 }
