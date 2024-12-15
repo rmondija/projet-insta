@@ -1,4 +1,4 @@
-*{
+a{
     margin: 0;
     padding: 0;
     color: #1E2A37;
@@ -222,6 +222,7 @@ footer {
  .gauche .droite {
   padding-left: 20px;
   margin-right: auto;
+  color:white;
 }
 
 
@@ -320,11 +321,13 @@ footer {
     text-align: center; 
     width: auto; 
     margin-bottom: 20px;
+    color: white;
   }
 
   .gauche { 
     text-align: center; 
     width: auto; 
     margin-bottom: 20px;
+    color: white;
   }
 }
