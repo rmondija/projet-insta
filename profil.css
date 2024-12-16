@@ -1,9 +1,5 @@
 body {
     background-color: #F6F8FA;
-    color: #1E2A37;
-    font-family: "Roboto";
-    margin: 0;
-    padding: 0;
 }
 
 .navbar{
@@ -23,11 +19,7 @@ body {
 
 a{
  text-decoration: none;
- color: #1E2A37;
-}
-
-a:hover {
-    font-weight: bold;
+ color: black;
 }
 
 @media (max-width: 480px) {
@@ -51,71 +43,4 @@ a:hover {
 .c1 {
     padding: 10px;
     background: white;
-    color: #1E2A37;
-}
-
-.c1 {
-    grid-area: c1;
-}
-
-.c2{
-    grid-area: c2;
-}
-
-.c3 {
-    grid-area: c3;
-}
-
-.c4 {
-    grid-area: c4;
-}
-
-.c5 {
-    grid-area: c5;
-}
-
-.c6 {
-    grid-area: c6;
-}
-
-.c7 {
-    grid-area: c7;
-}
-
-.c8 {
-    grid-area: c8;
-}
-
-#s1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: 
-    "c1 c2 c2 c2"
-    "c1 c3 c3 c3"
-    ". c4 c5 c6"
-    ". c7 c8 c6";
-    justify-content: center;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    gap: 30px;
-}
-
-.footer {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    background-color: #1E2A37;
-    color: white;
-    height: 70px;
-    width: 100%;
-}
-
-.gauche {
-    padding-left: 20px;
-    margin-right: auto;
-}
-
-.droite {
-    padding-right: 20px;
-    margin-left: auto;
 }
