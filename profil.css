@@ -2,8 +2,6 @@ body {
     background-color: #F6F8FA;
     color: #1E2A37;
     font-family: "Roboto";
-    margin: 0;
-    padding: 0;
 }
 
 .navbar{
@@ -135,22 +133,26 @@ h3 {
     width: 100px;
 }
 
-.footer {
+footer {
+    background-color: rgba(30, 42, 55, 1);
+    color: white;
+    height: 100px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    margin-top: 30px;
+}
+
+ .gauche .droite {
+    color:white;
 }
 
 .gauche {
-    padding-left: 20px;
-    margin-right: auto;
+  padding-left: 20px;
 }
 
 .droite {
     padding-right: 20px;
-    margin-left: auto;
 }
 
 @media (max-width: 480px) {
@@ -173,3 +175,26 @@ h3 {
             "c8";
     }
 }
+@media (max-width: 780px) {
+    footer {
+      background-color: rgba(30, 42, 55, 1);
+      color: white;
+      justify-content: center; 
+      flex-direction: column;
+      width:100%;  
+    }
+  
+    .droite{ 
+          text-align: center;
+      width: auto; 
+      margin-bottom: 10px;
+      color: white;
+    }
+  
+    .gauche { 
+      text-align: center; 
+      width: auto; 
+      color: white;
+      margin-bottom: 5px;
+    }
+  }
