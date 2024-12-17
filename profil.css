@@ -1,9 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 body {
     background-color: #F6F8FA;
     color: #1E2A37;
     font-family: "Roboto";
-    margin: 0;
-    padding: 0;
 }
 
 .navbar{
@@ -56,13 +65,23 @@ a:hover {
     list-style: none;
     gap: 20px;
     text-align: center;
+    font-weight: 300;
+}
+
+.Jean {
+    background-color: white;
+    border-radius: 0 0 15px 15px;
 }
 
 h2 {
-    text-align: center;
 }
 
 h3 {
+    font-weight: 300;
+    text-align: center;
+}
+
+p {
     font-weight: 300;
     text-align: center;
 }
@@ -124,6 +143,14 @@ h3 {
     grid-area: c8;
 }
 
+.c9 {
+    grid-area: c9;
+}
+
+.c10 {
+    grid-area: c10;
+}
+
 .images {
     display: flex;
     height: 100px;
@@ -149,12 +176,10 @@ h3 {
 
 .gauche {
     padding-left: 20px;
-    margin-right: auto;
 }
 
 .droite {
     padding-right: 20px;
-    margin-left: auto;
 }
 
 @media (max-width: 480px) {
