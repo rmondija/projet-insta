@@ -72,7 +72,6 @@ h3 {
 }
 
 .c1 {
-    background: white;
     color: #1E2A37;
     grid-area: c1;
 }
@@ -83,8 +82,10 @@ h3 {
     grid-template-areas: 
     "c1 c2 c2 c2"
     "c1 c3 c3 c3"
-    ". c4 c5 c6"
-    ". c7 c8 c6";
+    "c1 c4 c4 c4"
+    "c1 c5 c5 c5"
+    "c1 c6 c7 c8"
+    "c1 c9  c10 c8";
     justify-content: center;
     margin-left: 40px;
     margin-right: 40px;
@@ -98,13 +99,13 @@ h3 {
 
 .c3 {
     grid-area: c3;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .c4 {
     grid-area: c4;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .c5 {
