@@ -1,4 +1,4 @@
-* {
+body {
     background-color: #F6F8FA;
     color: #1E2A37;
     font-family: "Roboto";
@@ -11,6 +11,7 @@
     flex-direction: row;
     justify-content: space-between;
     align-items: stretch;
+    margin-left: 40px;
 }
 
 .accueil{
@@ -30,12 +31,6 @@ a:hover {
     font-weight: bold;
 }
 
-@media (max-width: 480px) {
-    .accueil {
-        display: inline;
-    }
-}
-
 .profil {
     display: flex;
     flex-direction: row;
@@ -52,6 +47,65 @@ a:hover {
     padding: 10px;
     background: white;
     color: #1E2A37;
+    grid-area: c1;
+}
+
+#s1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "c1 c2 c2 c2"
+    "c1 c3 c3 c3"
+    ". c4 c5 c6"
+    ". c7 c8 c6";
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    gap: 30px;
+}
+
+.c2{
+    grid-area: c2;
+}
+
+.c3 {
+    grid-area: c3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.c4 {
+    grid-area: c4;
+}
+
+.c5 {
+    grid-area: c5;
+}
+
+.c6 {
+    grid-area: c6;
+}
+
+.c7 {
+    grid-area: c7;
+}
+
+.c8 {
+    grid-area: c8;
+}
+
+.images {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.images1 {
+    display: flex;
+    height: 100px;
+    width: 100px;
 }
 
 .footer {
@@ -72,4 +126,25 @@ a:hover {
 .droite {
     padding-right: 20px;
     margin-left: auto;
+}
+
+@media (max-width: 480px) {
+    .accueil {
+        display: inline;
+    }
+}
+
+@media (max-width:780px) {
+    #s1 {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "c1"
+            "c2"
+            "c3"
+            "c4"
+            "c5"
+            "c6"
+            "c7"
+            "c8";
+    }
 }
