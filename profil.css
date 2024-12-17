@@ -71,6 +71,9 @@ a:hover {
 
 .c3 {
     grid-area: c3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .c4 {
@@ -91,6 +94,18 @@ a:hover {
 
 .c8 {
     grid-area: c8;
+}
+
+.images {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.images1 {
+    display: flex;
+    height: 100px;
+    width: 100px;
 }
 
 .footer {
