@@ -55,8 +55,19 @@ header {
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 10px;
+    margin-top: 15px;
     margin-left: 40px;
     margin-right: 40px;
+}
+
+.menu-p {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    flex-basis: 50%;
+    list-style: none;
+    font-weight: 300;
+    margin-top: 20px;
 }
 
 .actu {
@@ -311,10 +322,11 @@ footer {
 
 
 @media (max-width: 780px) {
-  footer {background-color: rgba(30, 42, 55, 1);
+  footer {
+    background-color: rgba(30, 42, 55, 1);
     color: white;
     justify-content: center; 
-        flex-direction: column;
+    flex-direction: column;
     width: 100%;  
   }
 
