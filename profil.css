@@ -38,10 +38,26 @@ a{
 .c1 {
     padding: 10px;
     background: white;
+<<<<<<< HEAD
+=======
+    color: #1E2A37;
+    grid-area: c1;
+>>>>>>> 91c5a5a6ef70140b345b984752ae47f4145bf661
 }
 
-.c1 {
-    grid-area: c1;
+#s1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-areas: 
+    "c1 c2 c2 c2"
+    "c1 c3 c3 c3"
+    ". c4 c5 c6"
+    ". c7 c8 c6";
+    justify-content: center;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 20px;
+    gap: 30px;
 }
 
 .c2{
@@ -50,6 +66,9 @@ a{
 
 .c3 {
     grid-area: c3;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .c4 {
@@ -72,18 +91,16 @@ a{
     grid-area: c8;
 }
 
-#s1 {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-areas: 
-    "c1 c2 c2 c2"
-    "c1 c3 c3 c3"
-    ". c4 c5 c6"
-    ". c7 c8 c6";
-    justify-content: center;
-    margin-left: 40px;
-    margin-bottom: 40px;
-    gap: 30px;
+.images {
+    display: flex;
+    height: 100px;
+    width: 100px;
+}
+
+.images1 {
+    display: flex;
+    height: 100px;
+    width: 100px;
 }
 
 .footer {
@@ -111,3 +128,21 @@ a{
         display: inline;
     }
 }
+<<<<<<< HEAD
+=======
+
+@media (max-width:780px) {
+    #s1 {
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "c1"
+            "c2"
+            "c3"
+            "c4"
+            "c5"
+            "c6"
+            "c7"
+            "c8";
+    }
+}
+>>>>>>> 91c5a5a6ef70140b345b984752ae47f4145bf661
