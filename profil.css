@@ -160,18 +160,15 @@ p {
     width: 100px;
 }
 
-footer {
-    background-color: rgba(30, 42, 55, 1);
-    color: white;
-    height: 100px;
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1E2A37;
+    color: white;
+    height: 70px;
     width: 100%;
-}
-
- .gauche .droite {
-    color:white;
+    margin-top: 30px;
 }
 
 .gauche {
@@ -202,26 +199,3 @@ footer {
             "c8";
     }
 }
-@media (max-width: 780px) {
-    footer {
-      background-color: rgba(30, 42, 55, 1);
-      color: white;
-      justify-content: center; 
-      flex-direction: column;
-      width:100%;  
-    }
-  
-    .droite{ 
-          text-align: center;
-      width: auto; 
-      margin-bottom: 10px;
-      color: white;
-    }
-  
-    .gauche { 
-      text-align: center; 
-      width: auto; 
-      color: white;
-      margin-bottom: 5px;
-    }
-  }
