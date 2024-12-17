@@ -1,9 +1,5 @@
 body {
     background-color: #F6F8FA;
-    color: #1E2A37;
-    font-family: "Roboto";
-    margin: 0;
-    padding: 0;
 }
 
 .navbar{
@@ -24,11 +20,7 @@ body {
 
 a{
  text-decoration: none;
- color: #1E2A37;
-}
-
-a:hover {
-    font-weight: bold;
+ color: black;
 }
 
 .profil {
