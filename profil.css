@@ -38,11 +38,8 @@ a{
 .c1 {
     padding: 10px;
     background: white;
-<<<<<<< HEAD
-=======
     color: #1E2A37;
     grid-area: c1;
->>>>>>> 91c5a5a6ef70140b345b984752ae47f4145bf661
 }
 
 #s1 {
@@ -128,8 +125,6 @@ a{
         display: inline;
     }
 }
-<<<<<<< HEAD
-=======
 
 @media (max-width:780px) {
     #s1 {
@@ -145,4 +140,3 @@ a{
             "c8";
     }
 }
->>>>>>> 91c5a5a6ef70140b345b984752ae47f4145bf661
