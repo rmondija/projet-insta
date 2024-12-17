@@ -91,21 +91,24 @@ header {
 }
 
 .actu2 {
+    margin-top: 40px;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .actu3 {
-    display: flex;
-    margin: 40px;
+    display: grid;
+    margin-left: 40px;
     font-size: x-large;
+    grid-area: a6;
 }
 
 .actu4 {
-    display: flex;
+    display: grid;
     margin-right: 90px;
     font-size: x-large;
+    grid-area: a7;
 }
 
 .suivi {
@@ -182,6 +185,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     grid-template-areas:
+        "a6 . . a7"
         "a1 a2 a3 a4" 
         "a5 a5 a3 a4"; 
     gap: 60px;
