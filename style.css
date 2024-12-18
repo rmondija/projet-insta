@@ -80,7 +80,7 @@ header {
 .menu-p {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
     flex-basis: 50%;
     list-style: none;
     font-weight: 300;
