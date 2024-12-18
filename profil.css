@@ -1,3 +1,14 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
 body {
     background-color: #F6F8FA;
     color: #1E2A37;
@@ -54,15 +65,39 @@ a:hover {
     list-style: none;
     gap: 20px;
     text-align: center;
+    font-weight: 300;
+}
+
+.Jean {
+    background-color: white;
+    border-radius: 0 0 15px 15px;
+    align-items: baseline;
+}
+
+.username {
+    margin: 10px auto;
+}
+
+.presentation {
+    margin: 10px auto;
+    margin-left: 20px;
 }
 
 h2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: justify;
     text-align: center;
 }
-
 h3 {
     font-weight: 300;
     text-align: center;
+}
+
+p {
+    font-weight: 300;
+    text-align: justify;
+    justify-content: space-around;
 }
 
 .grid {
@@ -122,6 +157,14 @@ h3 {
     grid-area: c8;
 }
 
+.c9 {
+    grid-area: c9;
+}
+
+.c10 {
+    grid-area: c10;
+}
+
 .images {
     display: flex;
     height: 100px;
@@ -134,22 +177,19 @@ h3 {
     width: 100px;
 }
 
-footer {
-    background-color: rgba(30, 42, 55, 1);
-    color: white;
-    height: 100px;
+.footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    background-color: #1E2A37;
+    color: white;
+    height: 70px;
     width: 100%;
-}
-
- .gauche .droite {
-    color:white;
+    margin-top: 30px;
 }
 
 .gauche {
-  padding-left: 20px;
+    padding-left: 20px;
 }
 
 .droite {
@@ -173,29 +213,13 @@ footer {
             "c5"
             "c6"
             "c7"
-            "c8";
+            "c8"
+            "c9";
+    }
+    .c10 {
+        display: none;
+    }
+    .images1 {
+        display: none;
     }
 }
-@media (max-width: 780px) {
-    footer {
-      background-color: rgba(30, 42, 55, 1);
-      color: white;
-      justify-content: center; 
-      flex-direction: column;
-      width:100%;  
-    }
-  
-    .droite{ 
-          text-align: center;
-      width: auto; 
-      margin-bottom: 10px;
-      color: white;
-    }
-  
-    .gauche { 
-      text-align: center; 
-      width: auto; 
-      color: white;
-      margin-bottom: 5px;
-    }
-  }
