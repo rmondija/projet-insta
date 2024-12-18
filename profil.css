@@ -109,7 +109,6 @@ p {
     text-align: justify;
     justify-content: space-around;
 }
-
 .grid {
     display: grid;
 }
@@ -206,13 +205,13 @@ p {
     padding-right: 20px;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 830px) {
     .accueil {
         display:none;
     }
 }
 
-@media (max-width:780px) {
+@media (max-width:830px) {
     #s1 {
         grid-template-columns: 1fr;
         grid-template-areas:
@@ -234,7 +233,7 @@ p {
         display: none;
     }
 }
-@media (max-width:780px){
+@media (max-width:830px){
  footer{ background-color: #1E2A37;
      color: #F6F8FA;
     justify-content: center; 
@@ -273,7 +272,3 @@ header {
     display: block;
   }
 }
-
-
-
-    
