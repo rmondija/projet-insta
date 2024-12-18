@@ -75,6 +75,12 @@ a:hover {
     align-items: baseline;
 }
 
+.photo {
+    max-width: 100%;
+    display: block;
+    max-height: 100%;
+}
+
 .username {
     margin: 10px auto;
 }
@@ -83,9 +89,6 @@ a:hover {
     margin: 10px auto;
     margin-left: 20px;
 }
-.storesp {
-    display: none;  
-  }
 
 h2 {
     justify-content: space-between;
@@ -233,7 +236,7 @@ p {
         display: none;
     }
 }
-@media (max-width:893px){
+@media (max-width:780px){
  footer{ background-color: #1E2A37;
      color: #F6F8FA;
     justify-content: center; 
@@ -265,14 +268,4 @@ header {
     right: 10px;          
     margin-top: 20px;
 }
-.stories2{
-    display: none;  
-  }
-.storesp {
-    display: block;
-  }
-}
-
-
-
-    
+ }    
