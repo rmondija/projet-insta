@@ -302,7 +302,7 @@ footer {
     nav .logo img { 
         content: url("images/group.png"); 
         justify-content: center; 
-        width: 100%; 
+        max-width: 200px; 
         margin-bottom: 10px;
     }
     
