@@ -68,6 +68,16 @@ a:hover {
     font-weight: 300;
 }
 
+.robinet {
+    .photo {
+        position: relative;
+    }
+    .icone {
+        position: absolute;
+        align-items: flex-end;
+    }
+}
+
 .Jean {
     background-color: white;
     border-radius: 0 0 15px 15px;
@@ -228,5 +238,9 @@ p {
     }
     .images1 {
         display: none;
+    }
+
+    .photo{
+        width: 100%;
     }
 }
