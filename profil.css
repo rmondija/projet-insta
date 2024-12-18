@@ -191,7 +191,6 @@ p {
     background-color: #1E2A37;
     color: white;
     height: 70px;
-    width: 100%;
     margin-top: 30px;
 }
 
@@ -231,7 +230,7 @@ p {
         display: none;
     }
 }
-@media (max-width:780px){
+@media (max-width:893px){
  footer{ background-color: #1E2A37;
      color: #F6F8FA;
     justify-content: center; 
