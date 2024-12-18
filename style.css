@@ -109,7 +109,7 @@ header {
     font-size: x-large;
     grid-area: a6;
     margin-top: 40px;
-    bottom: 10px;
+    gap: 0px;
 }
 
 .actu4 {
