@@ -84,10 +84,14 @@ a:hover {
 }
 
 h2 {
-    display: flex;
     justify-content: space-between;
     align-items: justify;
+    text-align: justify;
+}
 
+.prenom {
+    display: flex;
+    justify-content: center;
     text-align: center;
 
 }
@@ -100,7 +104,6 @@ p {
     font-weight: 300;
     text-align: justify;
     justify-content: space-around;
-
 }
 
 .grid {
@@ -218,13 +221,6 @@ p {
             "c7"
             "c8"
             "c9";
-
-    }
-    .c10 {
-        display: none;
-    }
-    .images1 {
-        display: none;
     }
 
     .c10 {
