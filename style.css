@@ -4,6 +4,12 @@
   font-family: "Roboto";
 }
 
+body {
+    background-color: #F6F8FA;
+    color: #1E2A37;
+    font-family: "Roboto";
+}
+
 a {
     margin: 0;
     padding: 0;
@@ -14,7 +20,7 @@ a {
     display: flex;
     justify-content: space-between;
     background-color: #1E2A37;
-    color: white;
+    color: #F6F8FA;
     width: 100%;
 }
 
@@ -24,6 +30,14 @@ header {
     align-items: center; 
     gap: 30px;
     text-align: center;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-left: 40px;
 }
 
 .menu {
@@ -38,11 +52,13 @@ header {
 .search {
     width: 50px;
     height: 50px;
+    margin-top: 15px;
 }
 
 .btn {
     width: 90px;
     height: 50px;
+    margin-top: 15px;
 }
 
 .logo {
@@ -68,7 +84,7 @@ header {
     flex-basis: 50%;
     list-style: none;
     font-weight: 300;
-    margin-top: 20px;
+    width: 100%;
 }
 
 .actu {
@@ -88,12 +104,11 @@ header {
     margin-left: 40px;
 }
 
-
 .actu3 {
     display: grid;
     font-size: x-large;
     grid-area: a6;
-    margin-top: 40px;;
+    margin-top: 40px;
     gap: 0px;
 }
 
@@ -287,7 +302,7 @@ footer {
     nav .logo img { 
         content: url("images/group.png"); 
         justify-content: center; 
-        width: 100%; 
+        max-width: 200px; 
         margin-bottom: 10px;
     }
     
@@ -296,7 +311,7 @@ footer {
         position: absolute;
         right: 10px;          
         margin-top: 20px;
-    } 
+    }   
 }
 
 @media (max-width:780px) {
@@ -324,7 +339,7 @@ footer {
 @media (max-width: 780px) {
   footer {
     background-color: rgba(30, 42, 55, 1);
-    color: white;
+    color: #F6F8FA;
     justify-content: center; 
     flex-direction: column;
     width: 100%;  
@@ -334,13 +349,13 @@ footer {
     text-align: center;
     width: auto; 
     margin-bottom: 10px;
-    color: white;
+    color: #F6F8FA;;
   }
 
   .gauche { 
     text-align: center; 
     width: auto; 
-    color: white;
+    color: #F6F8FA;;
     margin-bottom: 5px;
   }
 }
