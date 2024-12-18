@@ -267,10 +267,10 @@ header {
     margin-top: 20px;
 }
 .stories2{
-    display: none;  /* Masquer l'élément "Stories" sur les petits écrans */
+    display: none;  
   }
 .storesp {
-    display: block;  /* Afficher "À la une" sur les petits écrans */
+    display: block;
   }
 }
 
