@@ -47,6 +47,7 @@ header {
     margin-top: 10px;
     gap: 30px;
     align-items: stretch;
+    justify-content: space-between;
 }
 
 .search {
@@ -80,7 +81,7 @@ header {
 .menu-p {
     display: flex;
     flex-direction: row;
-    gap: 50px;
+    gap: 30px;
     flex-basis: 50%;
     list-style: none;
     font-weight: 300;
@@ -235,7 +236,7 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
+    max-width: 100%;
 }
 
  .gauche .droite {
@@ -267,6 +268,7 @@ footer {
         max-width: 100%;
         max-height: 100%;
         display: block;
+        object-fit: contain;
     }
 }
 
