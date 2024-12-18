@@ -87,6 +87,7 @@ h2 {
     display: flex;
     justify-content: space-between;
     align-items: justify;
+    text-align: center;
 }
 h3 {
     font-weight: 300;
