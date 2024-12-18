@@ -84,10 +84,14 @@ a:hover {
 }
 
 h2 {
-    display: flex;
     justify-content: space-between;
     align-items: justify;
-    text-align: center;
+    text-align: justify;
+}
+
+.prenom {
+    display: flex;
+    justify-content: center;
 }
 
 h3 {
@@ -217,6 +221,7 @@ p {
             "c8"
             "c9";
     }
+
     .c10 {
         display: none;
     }
