@@ -52,7 +52,6 @@ a:hover {
     height: 50px;
     margin-top: 15px;
 }
-.burger-menu {display: none;}
 
 .bouton {
     width: 90px;
@@ -69,6 +68,16 @@ a:hover {
     font-weight: 300;
 }
 
+.robinet {
+    .photo {
+        position: relative;
+    }
+    .icone {
+        position: absolute;
+        align-items: flex-end;
+    }
+}
+
 .Jean {
     background-color: white;
     border-radius: 0 0 15px 15px;
@@ -83,9 +92,6 @@ a:hover {
     margin: 10px auto;
     margin-left: 20px;
 }
-.storesp {
-    display: none;  
-  }
 
 h2 {
     justify-content: space-between;
@@ -207,7 +213,7 @@ p {
 
 @media (max-width: 830px) {
     .accueil {
-        display:none;
+        display: inline;
     }
 }
 
@@ -232,6 +238,7 @@ p {
     .images1 {
         display: none;
     }
+
 }
 @media (max-width:830px){
  footer{ background-color: #1E2A37;
@@ -271,4 +278,10 @@ header {
 .storesp {
     display: block;
   }
+
+
+    .photo{
+        width: 100%;
+    }
+
 }
