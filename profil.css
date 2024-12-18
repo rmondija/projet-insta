@@ -83,6 +83,9 @@ a:hover {
     margin: 10px auto;
     margin-left: 20px;
 }
+.storesp {
+    display: none;  
+  }
 
 h2 {
     justify-content: space-between;
@@ -263,7 +266,14 @@ header {
     right: 10px;          
     margin-top: 20px;
 }
- }
+.stories2{
+    display: none;  /* Masquer l'élément "Stories" sur les petits écrans */
+  }
+.storesp {
+    display: block;  /* Afficher "À la une" sur les petits écrans */
+  }
+}
+
 
 
     
