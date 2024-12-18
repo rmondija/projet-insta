@@ -4,17 +4,23 @@
   font-family: "Roboto";
 }
 
+body {
+    background-color: #F6F8FA;
+    color: #1E2A37;
+    font-family: "Roboto";
+}
+
 a {
     margin: 0;
     padding: 0;
-    color: #1E2A37;
+    color: rgba(30, 42, 55, 1);
 }
 
 .footer {
     display: flex;
     justify-content: space-between;
     background-color: #1E2A37;
-    color: white;
+    color: #F6F8FA;
     width: 100%;
 }
 
@@ -26,22 +32,33 @@ header {
     text-align: center;
 }
 
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: stretch;
+    margin-left: 40px;
+}
+
 .menu {
     display: flex;
     text-decoration: none;
-    color: black;
+    color: rgba(30, 42, 55, 1);
     margin-top: 10px;
     gap: 30px;
+    align-items: stretch;
 }
 
 .search {
     width: 50px;
     height: 50px;
+    margin-top: 15px;
 }
 
 .btn {
     width: 90px;
     height: 50px;
+    margin-top: 15px;
 }
 
 .logo {
@@ -67,7 +84,7 @@ header {
     flex-basis: 50%;
     list-style: none;
     font-weight: 300;
-    margin-top: 20px;
+    width: 100%;
 }
 
 .actu {
@@ -82,30 +99,25 @@ header {
 }
 
 .h2 {
+    margin-top: 30px;
+    margin-bottom: 15px;
     margin-left: 40px;
 }
 
-.actu {
-    display: flex;
-    margin: 40px;
-}
-
-.actu2 {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-
 .actu3 {
-    display: flex;
-    margin: 40px;
+    display: grid;
     font-size: x-large;
+    grid-area: a6;
+    margin-top: 40px;;
+    gap: 0px;
 }
 
 .actu4 {
-    display: flex;
+    display: grid;
     margin-right: 90px;
     font-size: x-large;
+    margin-top: 40px;
+    grid-area: a7;
 }
 
 .suivi {
@@ -182,6 +194,7 @@ nav {
     display: grid;
     grid-template-columns: repeat(4, 1fr); 
     grid-template-areas:
+        "a6 . . a7"
         "a1 a2 a3 a4" 
         "a5 a5 a3 a4"; 
     gap: 60px;
@@ -242,6 +255,7 @@ footer {
     .section1 {
         grid-template-columns: 1fr;
         grid-template-areas:
+            "a6"
             "a1"
             "a2"
             "a3"
@@ -250,8 +264,9 @@ footer {
     }
 
     .section1 img { 
-        max-width: 100%; /* Ajuster la taille des images */
+        max-width: 100%;
         max-height: 100%;
+        display: block;
     }
 }
 
@@ -287,16 +302,16 @@ footer {
     nav .logo img { 
         content: url("images/group.png"); 
         justify-content: center; 
-        width: 100%; 
+        max-width: 200px; 
         margin-bottom: 10px;
     }
     
     .burger-menu {
         display: block;           
-         position: absolute;
-      right: 10px;          
+        position: absolute;
+        right: 10px;          
         margin-top: 20px;
-    } 
+    }   
 }
 
 @media (max-width:780px) {
@@ -316,7 +331,7 @@ footer {
     }
 
     .actu4 {
-        display: none;
+        display: none;    
     }
 }
 
@@ -324,23 +339,23 @@ footer {
 @media (max-width: 780px) {
   footer {
     background-color: rgba(30, 42, 55, 1);
-    color: white;
+    color: #F6F8FA;
     justify-content: center; 
     flex-direction: column;
     width: 100%;  
   }
 
   .droite{ 
-        text-align: center;
+    text-align: center;
     width: auto; 
     margin-bottom: 10px;
-    color: white;
+    color: #F6F8FA;;
   }
 
   .gauche { 
     text-align: center; 
     width: auto; 
-    color: white;
+    color: #F6F8FA;;
     margin-bottom: 5px;
   }
 }

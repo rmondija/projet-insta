@@ -65,23 +65,12 @@ a:hover {
     list-style: none;
     gap: 20px;
     text-align: center;
-    font-weight: 300;
-}
-
-.Jean {
-    background-color: white;
-    border-radius: 0 0 15px 15px;
 }
 
 h2 {
-}
-
-h3 {
-    font-weight: 300;
     text-align: center;
 }
-
-p {
+h3 {
     font-weight: 300;
     text-align: center;
 }
@@ -199,6 +188,21 @@ p {
             "c5"
             "c6"
             "c7"
-            "c8";
+            "c8"
+            "c9";
+
+    }
+    .c10 {
+        display: none;
+    }
+    .images1 {
+        display: none;
+    }
+
+    .c10 {
+        display: none;
+    }
+    .images1 {
+        display: none;
     }
 }
